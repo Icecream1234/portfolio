@@ -30,3 +30,32 @@ h1 {
 p {
    color: #33ceff ;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color:  #8822c6;
+    
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color:   #ffffff;
+  text-align: center;
+  padding:  14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+  
+.navbar a:hover {
+   background-color: #d1a2ee;
+   color: #000000;
+}
+
+.navbar a.active{
+   background-color: #ffffff;
+   color: Black;
+}
+  
+  
