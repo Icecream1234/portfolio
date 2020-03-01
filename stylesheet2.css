@@ -5,6 +5,8 @@ body {
   font-family: 'Playfair Display', serif;
   background-image: url(" https://raw.githubusercontent.com/Icecream1234/portfolio/master/gradient.png ");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
 h1 {
