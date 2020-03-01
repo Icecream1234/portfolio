@@ -34,3 +34,8 @@ h1 {
    color: #000000;
 }
 
+.navbar a.active{
+   background-color: #ffffff;
+   color: Black;
+}
+
