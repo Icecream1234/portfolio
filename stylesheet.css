@@ -21,10 +21,20 @@ body {
 h1 {
   font-style: italic;
   font-size: 20px;
-  color:  #33ffff ;
   border: 5px dotted blue;
   padding: 10px;
   float: right;
+  color:  #33ffff ;
+  animation-name: h1anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes h1anim {
+  0% {color: #33ffff;}
+  50% { color: red;}
+  100% {color:#33ffff;}
+  
 }
 
 p {
